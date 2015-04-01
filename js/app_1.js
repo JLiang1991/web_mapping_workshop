@@ -4,6 +4,7 @@
 var mapId = 'jliang.4ef9ff2e'; //<- this references the ugly green map that I made
 var token = 'pk.eyJ1IjoiamxpYW5nIiwiYSI6Ik5rV3lKOVUifQ.FsnLJyXTqXws2Ke0CjvrHw'; //<- this is my token, use yours.
 
+
 //Create the map object with your mapId and token
 L.mapbox.accessToken = token;
 var map = L.mapbox.map('map', mapId);
