@@ -28,6 +28,6 @@ featureLayer.on('ready',function(){
 
 featureLayer.on('ready',function(){
   this.eachLayer(function(layer){
-    layer.bindPopup('Hi, Im the routes called '+ layer.feature.properties.name);
+    layer.bindPopup('Hi, Im the trial called '+ layer.feature.properties.name);
   });
 });
