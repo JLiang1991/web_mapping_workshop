@@ -12,7 +12,7 @@ var map = L.mapbox.map('map', mapId);
 //Set the view of the map to the whole US
 map.setView([39, -96], 4);
 
-var dataFileToAdd = 'data/leveed_area.geojson';
+var dataFileToAdd = 'data/bike_routes.geojson';
 
 var featureLayer = L.mapbox.featureLayer().loadURL(dataFileToAdd).addTo(map)
 
